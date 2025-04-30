@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>OOYaP Testing</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="module">
+        import Test from '../js/testClass.js';
+        import TestPlatform from '../js/testingPlatform.js';
+        import tests from '../js/testings_js/OOYaP.js'
+
+        const platform = new TestPlatform(tests);
+        platform.start();
+    </script>
+</body>
+
+</html>
