@@ -713,10 +713,10 @@ const tests = [
     ),
     new Test(
       `C# тіліндегі Array класының келесі қасиетінің қайсысы Массивтің бекітілген өлшемі бар-жоғын тексереді?`, 
-      `Length`, 
+      `IsFixedSize`, 
       [
         `IsStatic`,
-        `IsFixedSize`,
+        `Length`,
         `FixedSize`,
         `Lengthoff`
       ],
